@@ -1,0 +1,15 @@
+
+
+
+
+.Flower {
+  border: 5px solid rgb(84, 255, 93);
+  border-radius: 0.5em;
+  font: 1.2em sans-serif rgb(255, 255, 255);
+  background-color: rgb(172, 255, 72);
+
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
