@@ -1,14 +1,27 @@
+.Title {
+  border-width: 500px;
+}
 
 
+.Input {
+  font: 1.2em sans-serif;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.player {
+  font: 1.2em sans-serif;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.Flower {
-  border: 5px solid rgb(84, 255, 93);
-  border-radius: 0.5em;
-  font: 1.2em sans-serif rgb(255, 255, 255);
-  background-color: rgb(172, 255, 72);
-
-  height: 500px;
+.bEnter {
+  font: 1.2em sans-serif;
+  
   display: flex;
   align-items: center;
   justify-content: center;
