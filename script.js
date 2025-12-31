@@ -1,13 +1,9 @@
-const title1 = document.getElementByClassName("fplayer");
-let result = "document.getElementsByClassName('fplayer')";
-for (const el of title1) {
-  result += `\n ${el.textContent}`;
-}
+function updatePlayerName() {
+var title1 = document.getItem("fplayer");
+var title2 = title1.value;
+localStorage.setItem("playerName", "Welcome Player " + title2 + "!");
+};
 
+document.querySelector(".bEnter button").addEventListener("click", function() {
 
-
-
-document.getElementByClassName("playerName").value = result;
-
-
-//document.getElementByClassName("bEnter").addEventListener("click", iOutput);
+});
