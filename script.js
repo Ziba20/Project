@@ -1,9 +1,15 @@
 function updatePlayerName() {
-var title1 = document.getItem("fplayer");
+var title1 = document.getElementsByClassName("fplayer");
 var title2 = title1.value;
-localStorage.setItem("playerName", "Welcome Player " + title2 + "!");
-};
 
-document.querySelector(".bEnter button").addEventListener("click", function() {
+document.querySelector(".bEnter").addEventListener("click", function() {
+
+document.getElementById('playername').textContent = "Welcome Player: " + title2 + "!";
 
 });
+};
+
+
+
+
+// <button onclick="location.href='about.html'">Enter</button>
